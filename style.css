@@ -497,7 +497,6 @@ td:last-child, th:last-child {
 
 .account {
     padding: 50px 0;
-    background: var(--color-bg);
 }
 
 .form-container {
