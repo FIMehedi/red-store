@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Store | Responsive Web Design</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="assets/images/logo.png" alt="">
+                </div>
+
+                <nav>
+                    <ul id="nav-menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#account">Account</a></li>
+                    </ul>
+                </nav>
+                <img class="cart-icon" src="assets/images/cart.png" alt="">
+                <img class="menu-icon" onclick="menuToggle()" src="assets/images/menu.png" alt="">
+            </div>
+
+        </div>
+    </header>
+
+
+
+    <main>
+
+        <!-- single Product -->
+        <section class="small-container single-product">
+
+            <div class="row">
+                <div class="col-2">
+                    <img src="assets/images/gallery-1.jpg" alt="" id="product-img">
+
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="assets/images/gallery-1.jpg" alt="" class="small-img">
+                        </div>
+
+                        <div class="small-img-col">
+                            <img src="assets/images/gallery-2.jpg" alt="" class="small-img">
+                        </div>
+
+                        <div class="small-img-col">
+                            <img src="assets/images/gallery-3.jpg" alt="" class="small-img">
+                        </div>
+
+                        <div class="small-img-col">
+                            <img src="assets/images/gallery-4.jpg" alt="" class="small-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <p>Home / T-shirt</p>
+                    <h1>Red Printed T-shirt By HRX</h1>
+                    <h4>$50.00</h4>
+
+                    <select name="" id="">
+                        <option value="">Select Size</option>
+                        <option value="XXL">XXL</option>
+                        <option value="XL">XL</option>
+                        <option value="L">L</option>
+                        <option value="M">M</option>
+                        <option value="S">S</option>
+                    </select>
+
+                    <input type="number" value="1" min="1">
+
+                    <a href="" class="btn">Add to Cart</a>
+
+                    <h3>Product Details <i class="fa fa-indent" aria-hidden="true"></i></h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet perspiciatis quae quas adipisci
+                        ipsa hic repudiandae expedita nemo, a dolorum?</p>
+
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- All Product Section -->
+        <section class="small-container">
+            <div class="row row-2">
+                <h2 class="title-alt">Related Products</h2>
+
+               <a href="">View More &#8594;</a>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="assets/images/product-1.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="far fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="assets/images/product-2.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="far fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="assets/images/product-3.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="assets/images/product-4.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="far fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="assets/images/play-store.png" alt="">
+                        <img src="assets/images/app-store.png" alt="">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="assets/images/logo-white.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus eum, fugit natus amet vel
+                        numquam. Numquam provident reprehenderit sunt earum.</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Useful Quick Links</h3>
+
+                    <ul>
+                        <li><a href="">Coupons</a></li>
+                        <li><a href="">Blog Post</a></li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">Join Affiliate</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">YouTube</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="copyright">
+                <p>&copy; Copyright 2021 </p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="assets/script/app.js"></script>
+</body>
+
+</html>
