@@ -4,24 +4,24 @@
     .navbar nav ul {
         position: absolute;
         top: 70px;
-        right: -50%;
+        left: 0;
         background: var(--secondary-color);
-        width: 50%;
-        height: 100%;
+        width: 100%;
+        text-align: right;
+        height: 0;
         overflow: hidden;
         transition: .3s ease-out;
-        text-align: left;
         z-index: 99;
 
     }
 
     .navbar nav ul.show{
-        right: 0;
+        height: 260px;
     }
 
     .navbar nav ul li {
         display: block;
-        margin: 20px 0 10px 40px;
+        margin: 20px 40px 10px 0;
     }
 
 
